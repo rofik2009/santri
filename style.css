@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.active {
+  color: rgb(31, 133, 250);
+  /* text-decoration: underline; */
+  font-weight: bold;
+}
+body,
+html {
+  overflow-x: hidden;
+  background-color: #dfdfdf;
+}
+
+/* Navbar */
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  color: whitesmoke;
+}
+.navbar h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 35px;
+  text-shadow: 2px 2px 5px rgb(87, 87, 87);
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+.nav-links li {
+  margin: 0 30px;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(BG11.jpg);
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.header-content {
+  margin-bottom: 150px;
+  color: whitesmoke;
+  text-align: center;
+}
+.header-content h2 {
+  font-size: 4vmin;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.line {
+  width: 150px;
+  height: 4px;
+  background: rgb(31, 133, 250);
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.header-content h1 {
+  font-size: 9vmin;
+  margin: 5px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: "Denk One", sans-serif;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.ctn {
+  padding: 8px 15px;
+  background: rgb(31, 133, 250);
+  border-radius: 30px;
+  color: whitesmoke;
+}
+.menu-btn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+/* Event */
+section {
+  width: 80%;
+  margin: 80px auto;
+}
+.title {
+  text-align: center;
+  font-size: 4vmin;
+  color: rgb(133, 133, 133);
+}
+.title h4 {
+  margin: 5px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  /* background: lightblue; */
+}
+.row .col img {
+  width: 80%;
+}
+.row .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.events .row {
+  margin-top: 50px;
+}
+h4 {
+  font-size: 3vmin;
+  color: rgb(60, 48, 71);
+  margin: 20px auto;
+}
+p {
+  color: rgb(112, 112, 112);
+  padding: 0px 40px;
+  font-family: "Poppins", sans-serif;
+}
+.events .ctn {
+  margin-top: 30px;
+}
+.explore {
+  width: 100%;
+  height: 100vh;
+  background-image: url(BG2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.explore-content {
+  width: 60%;
+  padding: 50px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.explore-content h1 {
+  font-size: 7vmin;
+  margin: 10px;
+}
+.explore-content h1 {
+  text-shadow: 2px 2px 5px rgb(87, 87, 87);
+}
+.explore-content .line {
+  margin-bottom: 50px;
+}
+.explore-content p {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.explore-content .ctn {
+  margin-top: 40px;
+}
+/* .tours .row .col {
+  width: 50%;
+} */
+.content-col {
+  width: 40%;
+}
+.image-col {
+  width: 60%;
+}
+
+.tours .image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+.image-gallery img {
+  max-width: 250px;
+  margin: 10px;
+}
+.content-col h1 {
+  font-size: 7vmin;
+  color: rgb(133, 133, 133);
+}
+.content-col .line {
+  margin-left: -1px;
+}
+.content-col p {
+  padding: 0;
+  margin: 30px auto;
+}
+.content-col .ctn {
+  margin-left: -100px;
+}
+
+.footer {
+  width: 100%;
+  min-height: 100px;
+  padding: 20px 80px;
+  margin: 0;
+  background: rgb(31, 133, 250);
+  text-align: center;
+}
+.footer p {
+  color: white;
+  margin: 10px auto;
+}
+
+/* Media start */
+.media {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  margin-top: -100px;
+}
+
+.mediakota {
+  margin-top: 100px;
+}
+
+.mediakota .sosmed {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: 0px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.mediakota .sosmed:hover {
+  width: 140px;
+}
+.mediakota .sosmed .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  margin-top: -10px;
+  margin-left: -10px;
+  /* border-radius: 50px; */
+  /* box-sizing: border-box; */
+  /* line-height: 60px; */
+  transition: all 0.3s ease-out;
+}
+.mediakota .sosmed #facebook {
+  color: black;
+}
+.mediakota .sosmed #tiktok {
+  color: black;
+}
+.mediakota .sosmed #instagram {
+  color: black;
+}
+.mediakota .sosmed #youtube {
+  color: black;
+}
+
+.mediakota .sosmed .icon i {
+  /* font-size: 25px; */
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+
+/* Media End */
+
+/* Mobile device */
+/* @media only screen and (min-width: 768px) */
+
+@media only screen and (max-width: 850px) {
+  .menu-btn {
+    display: block;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background: rgb(177, 177, 177);
+    margin-top: -1500px;
+    transition: all 0.5s ease;
+  }
+  .mobile-menu {
+    margin-top: 0px;
+    /* border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 150px; */
+  }
+  .nav-links li {
+    margin: 30px auto;
+  }
+  /* Event */
+  .row {
+    flex-direction: column;
+  }
+  .row .col {
+    margin: 20px auto;
+  }
+  .col img {
+    max-width: 90%;
+  }
+  /* Explore */
+  .explore-content {
+    width: 100%;
+  }
+  .tours .col {
+    width: 100%;
+  }
+  .image-gallery {
+    justify-content: center;
+    align-items: center;
+  }
+  .image-gallery img {
+    width: 90%;
+  }
+  .footer {
+    padding: 10px;
+  }
+}
+
+/* Img Animation */
+.img {
+  transition: transform 0.3s ease;
+}
+img:hover {
+  transform: scale(1.1);
+}
+.ctn:hover {
+  background: whitesmoke;
+  color: rgb(31, 133, 250);
+  box-shadow: 2px 2px 5px rgb(110, 110, 110);
+}
+li:hover {
+  color: rgb(31, 133, 250);
+  cursor: zoom-out;
+}

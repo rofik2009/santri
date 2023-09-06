@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.media {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  margin-top: 100px;
+}
+
+.mediakota {
+  margin-top: 100px;
+}
+
+.mediakota .sosmed {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  /* height: 60px;
+  width: 60px; */
+  margin: 0px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+}
+
+.mediakota .sosmed:hover {
+  width: 140px;
+}
+.mediakota .sosmed .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  margin-top: -10px;
+  margin-left: -10px;
+  /* border-radius: 50px; */
+  /* box-sizing: border-box; */
+  /* line-height: 60px; */
+  transition: all 0.3s ease-out;
+}
+
+.mediakota .sosmed:nth-child(1)hover.icon {
+  background: #3498db;
+}
+.mediakota .sosmed:nth-child(2)hover.icon {
+  background: #2c3e50;
+}
+.mediakota .sosmed:nth-child(3)hover.icon {
+  background: #e74c3c;
+}
+
+.mediakota .sosmed:nth-child(4)hover.icong {
+  background: #c0392b;
+}
+
+.mediakota .sosmed .icon i {
+  /* font-size: 25px; */
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+
+.mediakota .sosmed:nth-child(1)span {
+  background: #3498db;
+}
+.mediakota .sosmed:nth-child(2)span {
+  background: #2c3e50;
+}
+.mediakota .sosmed:nth-child(3)span {
+  background: #e74c3c;
+}
+
+.mediakota .sosmed:nth-child(4)span {
+  background: #c0392b;
+}
